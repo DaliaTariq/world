@@ -143,7 +143,7 @@ a:hover{
    .page-content .add-user .add{
      padding:12px 17px 24px 17px;
    }
-   /*.page-content .add-user .add .add-player a{
+   .page-content .add-user .add .add-player a{
      display: inline-block;
      color: #C10F2F;
      font-size: 18px;
@@ -153,17 +153,33 @@ a:hover{
     display: inline-block;
     padding-right: 6px;
    }
-   .page-content .list-type a{
-     display: inline-block;
-     width: 29px;
-     height: 29px;
-     text-align: center;
-     line-height: 29px;
-     color: #C10F2F;
-     background-color: #fff;
-     border-radius: 50%;
-     font-size: 20px;
-   }*/
+   
+
+   .page-content .list-type ul.nav-tabs 
+   {
+    border-bottom:none;
+   }
+   .page-content .list-type ul.nav-tabs .nav-link{
+    display: inline-block;
+    /*width: 29px;
+    height: 29px;*/
+    text-align: center;
+    line-height: 29px;
+    color: #C10F2F;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+   }
+   .page-content .list-type ul.nav-tabs .nav-link:first-child{
+     margin-right: 10px;
+   }
+   .page-content .list-type ul.nav-tabs .nav-link.active{
+         color: #FFF;
+         background-color: #C10F2F;
+   }
+
+
+  /****************************************************/
    .page-content .add-user .registration{
      background-color: #fff;
      margin-left: 16px;
@@ -215,6 +231,10 @@ a:hover{
      padding-left: 24px;
      padding-right: 22px;
      text-align: center;
+     margin: 0 auto;
+   }
+   .page-content .player-data .row{
+     justify-content: center;
    }
    .page-content .player-data .single-col{
      background-color: #fff;
