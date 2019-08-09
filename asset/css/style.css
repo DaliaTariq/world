@@ -1,0 +1,402 @@
+/*Font Links*/
+/*@import url('asset/fonts/FONTAWESOME.otf');
+@import url('asset/fonts/FONTAWESOME-WEBFONT.ttf');*/
+
+
+
+/*
+* ==========================================
+* GLOBAL
+* ==========================================
+*/
+@font-face{
+  src: url(asset/fonts/FONTAWESOME-WEBFONT.TTF);
+  font-family: Hacen Liner Print-out;
+}
+
+body {
+  background: #ccc;
+  color:#828282;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: Hacen Liner Print-out;
+}
+a:hover{
+  text-decoration: none;
+}
+.container-fluid{
+  width: 100%;
+  overflow: hidden;
+}
+.col-md-3,
+.col-md-9,
+.col-xs-8,
+.col-xs-4
+
+{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+
+
+/*
+* ==========================================
+* SIDE NAV
+* ==========================================
+*
+*/
+
+
+
+.vertical-nav {
+    /*
+    position: fixed;
+*/
+    transition: all 0.4s;
+    min-height: 100%;
+    background-color: #C10F2F;
+  }
+  .vertical-nav .logo{
+      background-color: #F9F7D6;
+      text-align: center;
+      padding-left: 55px;
+      padding-right: 55px;
+      height: 78px;
+      line-height: 78px;
+  }
+  
+  .vertical-nav .logo img{
+      width: 100%;
+  }
+  .vertical-nav ul.nav{
+      padding-top:61px;
+      padding-left: 17px;
+      padding-right: 26px;
+      width: 100%;
+    
+      text-align: right;
+  }
+
+  .vertical-nav ul li a{
+      font-size: 17px;
+     /* font-family:Hacen Liner Print-out;*/
+     color:#fff;
+  }
+  .vertical-nav ul li a .right_icon{
+    display: inline-block;
+    height: 29px;
+    width:29px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 6px;
+    background-color: #fff;
+    color: #C10F2F;
+    
+  }
+  /***********************************************/
+/*
+  *
+  * ==========================================
+  * CONTENT
+  * ==========================================
+  *
+  */
+  .page-content {
+     transition: all 0.4s;
+   }
+   .page-content .header{
+     background-color: #FFFFFF;
+     height: 78px;
+     padding: 15px 20px;
+     box-shadow: 0 2px 6px #ccc;
+    
+     
+   }
+   .page-content .header .header-image .image{
+     display: inline-block;
+     
+   
+   }
+   .page-content .header .header-image .image img{
+        width: 100%;
+   }
+   .page-content .header .header-image .image:first-child{
+     padding-right: 28px;
+   }
+   .page-content .header .header-title h4{
+     display: inline-block;
+     font-size: 25px;
+     font-weight: normal;
+     color: #C10F2F;
+  
+   }
+   .page-content .header .header-title .btn{
+     background-color: transparent;
+     display: none;
+   }
+   .page-content .header .header-title .btn i{
+     color: #C10F2F;
+     font-size: 25px;
+   }
+   .page-content .add-user .add{
+     padding:12px 17px 24px 17px;
+   }
+   /*.page-content .add-user .add .add-player a{
+     display: inline-block;
+     color: #C10F2F;
+     font-size: 18px;
+     font-weight: normal;
+   }
+   .page-content .add-user .add .add-player a span{
+    display: inline-block;
+    padding-right: 6px;
+   }
+   .page-content .list-type a{
+     display: inline-block;
+     width: 29px;
+     height: 29px;
+     text-align: center;
+     line-height: 29px;
+     color: #C10F2F;
+     background-color: #fff;
+     border-radius: 50%;
+     font-size: 20px;
+   }*/
+   .page-content .add-user .registration{
+     background-color: #fff;
+     margin-left: 16px;
+     margin-right: 13px;
+     box-shadow: 0 2px 6px #ccc;
+     margin-bottom: 22px;
+     padding: 20px 22px 25px 37px;
+   }
+   .page-content .add-user .registration .form-group{
+     margin-bottom: 14px;
+    
+   }
+   .page-content .add-user .registration .form-group label{
+    float: right;
+    font-size: 16px;
+    color:#828282;
+  }
+   .page-content .add-user .registration .form-group .input-group{
+    border-radius: 5px;
+   border-color:  #DEDEDE;
+    height: 35px;
+  
+   }
+  
+   .page-content .add-user .registration .form-group .input-group .input-group-append .input-group-text{
+    background-color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    color: #707070;
+   }
+   .page-content .add-user .registration form button{
+     display: block;
+     width:116px;
+     height: 32px;
+     border-radius: 16px;
+     text-align: center;
+     line-height: 32px;
+     color:#fff;
+     background-color: #707070;
+     font-size: 18px;
+     padding: 0;
+   }
+   .page-content .add-user .registration form button:hover{
+    background-color: #C10F2F;
+    transition-duration: .3s;
+   }
+   .page-content .player-data{
+     padding-left: 24px;
+     padding-right: 22px;
+     text-align: center;
+   }
+   .page-content .player-data .single-col{
+     background-color: #fff;
+     box-shadow: 0 2px 6px #ccc;
+     padding:26px 25px 51px 25px;
+     margin-bottom: 44px;
+     color:#828282;
+   }
+   .page-content .player-data .single-col .player-image{
+     padding: 25px 81px 22px 81px;
+   }
+   .page-content .player-data .single-col .player-image img{
+      width: 100%;
+   }
+   .page-content .player-data .single-col .info{
+     text-align: right;
+   }
+   .page-content .player-data .single-col .info p{
+    color:#828282;
+    font-size: 17px;
+
+   }
+ 
+  
+   /******************************************************/
+  /*for test*/
+  
+  #homepage .vertical-nav#sidebar{
+   display: none;
+  }
+
+  /************************************/
+  
+  
+  
+  /* for toggle behavior */
+  
+ /* #sidebar.active {
+    margin-left: -10rem;
+  }
+  
+  /*#content.active {
+    width: 100%;
+    margin: 0;
+  }*/
+
+  @media (min-width: 1200px){
+    .container-fluid {
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .col-xs-12, 
+    .col-lg-9,
+    .col-3 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+  }
+
+ /*
+ =========================mobile====================
+ */
+ @media (min-width: 300px) and (max-width: 767px)  {
+   .vertical-nav#bigScreenNAv{
+     display: none;
+   }
+   .col-xs-12, 
+   .col-md-12{
+     padding-left: 0;
+     padding-right: 0;
+   }
+  /* #homepage.active .page-content .header .header-title .btn{
+    display: none;
+  }*/
+
+  #homepage.active .header .header-image{
+     display: none;
+   }
+   #homepage .header-title .btn{
+    display: inline-block;
+   }
+   #homepage.active .header-title .btn{
+    /*display: inline-block;*/
+     float: left !important;
+     margin-right: 295px;
+   }
+   #homepage.active .header-title h4{
+     display: none;
+   }
+   #content #sidebarCollapse{
+    background-color: transparent;
+    color:#C10F2F;
+    font-size: 25px;
+   }
+   #homepage{
+    position: relative;
+  }
+  #homepage.active .vertical-nav#sidebar{
+    display: block;
+    background-color: rgba(193, 15, 47, 0.7);
+   position: absolute;
+    z-index: 10;
+    right:0;
+    top:0;
+    transition-duration: .5s;
+  }
+  
+  }
+ 
+
+  /*
+  =========================ibad===========================
+  */
+  @media(min-width:768px) and (max-width:1024px){
+    .vertical-nav#bigScreenNAv{
+      display: none;
+    }
+    .col-xs-12, 
+    .col-md-12{
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+   /* .page-content .header .header-title .btn{
+      display: inline-block;
+    }*/
+
+
+      #homepage.active .header .header-image{
+     display: none;
+   }
+   #homepage .header-title .btn{
+    display: inline-block;
+   }
+   #homepage.active .header-title{
+     float: left !important;
+    
+   }
+   
+   #homepage.active .header-title h4{
+     display: none;
+   }
+   #content #sidebarCollapse{
+    background-color: transparent;
+    color:#C10F2F;
+    font-size: 25px;
+   }
+   #homepage{
+    position: relative;
+  }
+  #homepage.active .vertical-nav#sidebar{
+    display: block;
+    background-color: rgba(193, 15, 47, 0.7);
+   position: absolute;
+    z-index: 10;
+    right:0;
+    top:0;
+    transition-duration: .5s;
+  }
+  }
+
+
+  
+ /* @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -10rem;
+    }
+    #sidebar.active {
+      margin-left: 106px;
+    }
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 0;
+      width: 100%;
+    }
+  }*/
+  
+  
+ 
+  
+  
