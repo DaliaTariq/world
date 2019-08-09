@@ -395,6 +395,10 @@ a:hover{
     top:0;
     transition-duration: .5s;
   }
+  .page-content .player-data .single-col .player-image {
+    padding: 0;
+    padding-bottom: 22px;
+  }
   }
 
 
